@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="inquisitiveTestSuite" parallel="none">
+    <listeners>
+        <listener class-name="com.inquisitive.test.Listeners.TestListeners"/>
+    </listeners>
+    <test name="Test">
+        <classes>
+            <class name="com.inquisitive.test.Tests.HomePageTest"/>
+            <class name="com.inquisitive.test.Tests.CreateAnAccountTest"/>
+            <class name="com.inquisitive.test.Tests.UserDetailsTest"/>
+            <class name="com.inquisitive.test.Tests.SchoolInformationTest"/>
+        </classes>
+    </test>
+</suite>
