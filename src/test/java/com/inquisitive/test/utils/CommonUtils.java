@@ -24,6 +24,7 @@ public class CommonUtils {
     public static Select getSelectOptions(WebElement element) {
         return new Select(element);
     }
+
     public static void setOption(WebElement element,String value)
     {
         getSelectOptions(element).selectByVisibleText(value);
