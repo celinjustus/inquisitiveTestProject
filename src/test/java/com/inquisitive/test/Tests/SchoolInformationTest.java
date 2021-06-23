@@ -11,6 +11,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class SchoolInformationTest extends base {
     private final static Logger logger = LogManager.getLogger(SchoolInformationTest.class);
     HomePage homepage;
@@ -27,7 +29,7 @@ public class SchoolInformationTest extends base {
         schoolinfo=userDetails.enterUserDetails("Mrs","celin","justus");
     }
     @Test
-    public void enterSchoolInfoDetailsTest() {
+    public void enterSchoolInfoDetailsTest() throws IOException {
         try {
             schoolinfo.enterSchoolInformation("New South Wales","Inquisitive Test School 95, Mosman, 2088, NSW","Principal");
             String expected=schoolinfo.getchoosePlanText();
@@ -35,6 +37,7 @@ public class SchoolInformationTest extends base {
             Assert.assertTrue(expected.contains("Choose the right plan for you"));
         } catch (Exception e) {
             e.printStackTrace();
+            getScreenShot(driver);
             logger.error("Testcase failed!" +  e);
             driver.quit();
             setup();

@@ -14,6 +14,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class UserDetailsTest extends base {
     private final static Logger logger = LogManager.getLogger(UserDetailsTest.class);
     HomePage homepage;
@@ -28,7 +30,7 @@ public class UserDetailsTest extends base {
         userDetails=createAccount.createUserAccount("celin.test@inquisitive.com","Welcome@123");
     }
     @Test(dataProvider="enterUser")
-    public void enterUserDetailsTest(String testcaseName,String title,String firstName, String LastName) {
+    public void enterUserDetailsTest(String testcaseName,String title,String firstName, String LastName) throws IOException {
         try {
             userDetails.enterUserDetails(title,firstName,LastName);
             AssertUserDetails assertUserDetails= new AssertUserDetails();
@@ -36,6 +38,7 @@ public class UserDetailsTest extends base {
             driver.get(App.getProperty("app.url"));
         } catch (Exception e) {
             e.printStackTrace();
+            getScreenShot(driver);
             logger.error("Testcase failed!" +  e);
             driver.quit();
             setup();

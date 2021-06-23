@@ -8,13 +8,15 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class HomePageTest extends base {
     private final static Logger logger = LogManager.getLogger(HomePageTest.class);
     HomePage homepage;
     CreateAnAccount createAccount;
 
     @Test
-    public void launchHomePageTest(){
+    public void launchHomePageTest() throws IOException {
         logger.info("Starting Testcase " + this.getClass().getName());
         try {
             homepage=new HomePage(driver);
@@ -25,6 +27,7 @@ public class HomePageTest extends base {
             Assert.assertEquals(expected,"Create your account");
         } catch (Exception e) {
             e.printStackTrace();
+            getScreenShot(driver);
             logger.error("Testcase failed!" +  e);
             driver.quit();
             setup();

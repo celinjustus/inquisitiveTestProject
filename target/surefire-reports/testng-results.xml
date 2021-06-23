@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-23T16:25:27Z" name="inquisitiveTestSuite" finished-at="2021-06-23T16:28:55Z" duration-ms="208417">
+    <groups>
+    </groups>
+    <test started-at="2021-06-23T16:25:27Z" name="Test" finished-at="2021-06-23T16:28:55Z" duration-ms="208417">
+      <class name="com.inquisitive.test.Tests.SchoolInformationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.inquisitive.test.Tests.SchoolInformationTest@5c08c46a]" started-at="2021-06-23T16:28:32Z" name="setup" finished-at="2021-06-23T16:28:45Z" duration-ms="13251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigateToSchoolInfoPage()[pri:0, instance:com.inquisitive.test.Tests.SchoolInformationTest@5c08c46a]" started-at="2021-06-23T16:28:45Z" name="navigateToSchoolInfoPage" finished-at="2021-06-23T16:28:47Z" duration-ms="1905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSchoolInfoPage -->
+        <test-method signature="enterSchoolInfoDetailsTest()[pri:0, instance:com.inquisitive.test.Tests.SchoolInformationTest@5c08c46a]" started-at="2021-06-23T16:28:47Z" name="enterSchoolInfoDetailsTest" finished-at="2021-06-23T16:28:49Z" duration-ms="2152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSchoolInfoDetailsTest -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.inquisitive.test.Tests.SchoolInformationTest@5c08c46a]" started-at="2021-06-23T16:28:49Z" name="finish" finished-at="2021-06-23T16:28:55Z" duration-ms="6431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.inquisitive.test.Tests.SchoolInformationTest -->
+      <class name="com.inquisitive.test.Tests.UserDetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.inquisitive.test.Tests.UserDetailsTest@5cbe877d]" started-at="2021-06-23T16:27:40Z" name="setup" finished-at="2021-06-23T16:27:54Z" duration-ms="14057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigateToUserDetailsPage()[pri:0, instance:com.inquisitive.test.Tests.UserDetailsTest@5cbe877d]" started-at="2021-06-23T16:27:54Z" name="navigateToUserDetailsPage" finished-at="2021-06-23T16:27:56Z" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUserDetailsPage -->
+        <test-method signature="enterUserDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inquisitive.test.Tests.UserDetailsTest@5cbe877d]" started-at="2021-06-23T16:27:56Z" name="enterUserDetailsTest" data-provider="enterUser" finished-at="2021-06-23T16:28:08Z" duration-ms="11976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CorrectUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Phillip]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[J]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUserDetailsTest -->
+        <test-method is-config="true" signature="navigateToUserDetailsPage()[pri:0, instance:com.inquisitive.test.Tests.UserDetailsTest@5cbe877d]" started-at="2021-06-23T16:28:08Z" name="navigateToUserDetailsPage" finished-at="2021-06-23T16:28:09Z" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUserDetailsPage -->
+        <test-method signature="enterUserDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inquisitive.test.Tests.UserDetailsTest@5cbe877d]" started-at="2021-06-23T16:28:09Z" name="enterUserDetailsTest" data-provider="enterUser" finished-at="2021-06-23T16:28:16Z" duration-ms="7245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstNameMissing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUserDetailsTest -->
+        <test-method is-config="true" signature="navigateToUserDetailsPage()[pri:0, instance:com.inquisitive.test.Tests.UserDetailsTest@5cbe877d]" started-at="2021-06-23T16:28:16Z" name="navigateToUserDetailsPage" finished-at="2021-06-23T16:28:17Z" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUserDetailsPage -->
+        <test-method signature="enterUserDetailsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inquisitive.test.Tests.UserDetailsTest@5cbe877d]" started-at="2021-06-23T16:28:17Z" name="enterUserDetailsTest" data-provider="enterUser" finished-at="2021-06-23T16:28:24Z" duration-ms="7224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LastNameMissing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mrs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUserDetailsTest -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.inquisitive.test.Tests.UserDetailsTest@5cbe877d]" started-at="2021-06-23T16:28:24Z" name="finish" finished-at="2021-06-23T16:28:32Z" duration-ms="7301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.inquisitive.test.Tests.UserDetailsTest -->
+      <class name="com.inquisitive.test.Tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.inquisitive.test.Tests.HomePageTest@7e8dcdaa]" started-at="2021-06-23T16:25:27Z" name="setup" finished-at="2021-06-23T16:26:03Z" duration-ms="35718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launchHomePageTest()[pri:0, instance:com.inquisitive.test.Tests.HomePageTest@7e8dcdaa]" started-at="2021-06-23T16:26:03Z" name="launchHomePageTest" finished-at="2021-06-23T16:26:11Z" duration-ms="8523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomePageTest -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.inquisitive.test.Tests.HomePageTest@7e8dcdaa]" started-at="2021-06-23T16:26:11Z" name="finish" finished-at="2021-06-23T16:26:15Z" duration-ms="4127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.inquisitive.test.Tests.HomePageTest -->
+      <class name="com.inquisitive.test.Tests.CreateAnAccountTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.inquisitive.test.Tests.CreateAnAccountTest@681a8b4e]" started-at="2021-06-23T16:26:15Z" name="setup" finished-at="2021-06-23T16:26:29Z" duration-ms="13693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigateToCreateAccountPage()[pri:0, instance:com.inquisitive.test.Tests.CreateAnAccountTest@681a8b4e]" started-at="2021-06-23T16:26:31Z" name="navigateToCreateAccountPage" finished-at="2021-06-23T16:26:31Z" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCreateAccountPage -->
+        <test-method signature="createAnUserAccountTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inquisitive.test.Tests.CreateAnAccountTest@681a8b4e]" started-at="2021-06-23T16:26:31Z" name="createAnUserAccountTest" data-provider="createAnUser" finished-at="2021-06-23T16:26:50Z" duration-ms="18760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CorrectEmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[celin.test1@inquisitive.com ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAnUserAccountTest -->
+        <test-method is-config="true" signature="navigateToCreateAccountPage()[pri:0, instance:com.inquisitive.test.Tests.CreateAnAccountTest@681a8b4e]" started-at="2021-06-23T16:26:50Z" name="navigateToCreateAccountPage" finished-at="2021-06-23T16:26:51Z" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCreateAccountPage -->
+        <test-method signature="createAnUserAccountTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inquisitive.test.Tests.CreateAnAccountTest@681a8b4e]" started-at="2021-06-23T16:26:51Z" name="createAnUserAccountTest" data-provider="createAnUser" finished-at="2021-06-23T16:27:00Z" duration-ms="9656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IncorrectEmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[celin.test2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAnUserAccountTest -->
+        <test-method is-config="true" signature="navigateToCreateAccountPage()[pri:0, instance:com.inquisitive.test.Tests.CreateAnAccountTest@681a8b4e]" started-at="2021-06-23T16:27:00Z" name="navigateToCreateAccountPage" finished-at="2021-06-23T16:27:01Z" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCreateAccountPage -->
+        <test-method signature="createAnUserAccountTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inquisitive.test.Tests.CreateAnAccountTest@681a8b4e]" started-at="2021-06-23T16:27:01Z" name="createAnUserAccountTest" data-provider="createAnUser" finished-at="2021-06-23T16:27:16Z" duration-ms="15194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidEducationEmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[celin.test3@gmail.com ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAnUserAccountTest -->
+        <test-method is-config="true" signature="navigateToCreateAccountPage()[pri:0, instance:com.inquisitive.test.Tests.CreateAnAccountTest@681a8b4e]" started-at="2021-06-23T16:27:16Z" name="navigateToCreateAccountPage" finished-at="2021-06-23T16:27:17Z" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCreateAccountPage -->
+        <test-method signature="createAnUserAccountTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inquisitive.test.Tests.CreateAnAccountTest@681a8b4e]" started-at="2021-06-23T16:27:17Z" name="createAnUserAccountTest" data-provider="createAnUser" finished-at="2021-06-23T16:27:34Z" duration-ms="17020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IncorrectPassword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[celin.test2@inquisitive.com ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAnUserAccountTest -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.inquisitive.test.Tests.CreateAnAccountTest@681a8b4e]" started-at="2021-06-23T16:27:34Z" name="finish" finished-at="2021-06-23T16:27:40Z" duration-ms="6447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.inquisitive.test.Tests.CreateAnAccountTest -->
+    </test> <!-- Test -->
+  </suite> <!-- inquisitiveTestSuite -->
+</testng-results>

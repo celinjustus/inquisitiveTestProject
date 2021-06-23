@@ -13,6 +13,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 
 public class CreateAnAccountTest extends base{
     private final static Logger logger = LogManager.getLogger(CreateAnAccountTest.class);
@@ -27,7 +29,7 @@ public class CreateAnAccountTest extends base{
         createAccount=homepage.clickJoin(driver);
     }
     @Test(dataProvider="createAnUser")
-    public void createAnUserAccountTest(String testcaseName,String email,String password) {
+    public void createAnUserAccountTest(String testcaseName,String email,String password) throws IOException {
         try {
             createAccount.createUserAccount(email,password);
             Thread.sleep(5000);
@@ -36,6 +38,7 @@ public class CreateAnAccountTest extends base{
             driver.get(App.getProperty("app.url"));
         } catch (Exception e) {
             e.printStackTrace();
+            getScreenShot(driver);
             logger.error("Testcase failed!" +  e);
             driver.quit();
             setup();

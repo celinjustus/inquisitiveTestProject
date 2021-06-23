@@ -1,10 +1,8 @@
 package com.inquisitive.test.AssertTest;
 
 import com.inquisitive.test.Pages.CreateAnAccount;
-import com.inquisitive.test.Tests.CreateAnAccountTest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 public class AssertCreateAccount {
