@@ -1,0 +1,17 @@
+com\inquisitive\test\Pages\CreateAnAccount.class
+com\inquisitive\test\Listeners\TestListeners.class
+com\inquisitive\test\Pages\SchoolInformation.class
+com\inquisitive\test\AssertTest\AssertCreateAccount.class
+com\inquisitive\test\Tests\HomePageTest.class
+com\inquisitive\test\Pages\UserDetails.class
+com\inquisitive\test\app\setup\DriverManager.class
+com\inquisitive\test\utils\ExcelUtil.class
+com\inquisitive\test\app\setup\base.class
+com\inquisitive\test\utils\App.class
+com\inquisitive\test\Tests\UserDetailsTest.class
+com\inquisitive\test\utils\CommonUtils.class
+com\inquisitive\test\Tests\CreateAnAccountTest.class
+com\inquisitive\test\Pages\HomePage.class
+com\inquisitive\test\utils\ExtentReporterUtil.class
+com\inquisitive\test\Tests\SchoolInformationTest.class
+com\inquisitive\test\AssertTest\AssertUserDetails.class

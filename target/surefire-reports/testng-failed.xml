@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [inquisitiveTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.inquisitive.test.Listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.inquisitive.test.Tests.SchoolInformationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="navigateToSchoolInfoPage"/>
+          <include name="enterSchoolInfoDetailsTest"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- com.inquisitive.test.Tests.SchoolInformationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [inquisitiveTestSuite] -->
